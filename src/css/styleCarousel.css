@@ -1,0 +1,82 @@
+.container-carousel {
+  margin-left: 52px;
+  position: relative;
+  width: 71%;
+  max-width: 400px;
+  height: 500px;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  margin-bottom: 20px; /* Espaçamento entre as seções */
+}
+
+.gallery {
+  display: flex;
+  transition: transform 0.5s ease;
+  width: 100%; /* Largura total da galeria */
+}
+
+.gallery img {
+  width: 100%; /* Cada imagem ocupa 100% da largura do carrossel */
+  height: 100%; /* Cada imagem ocupa 100% da altura do carrossel */
+  object-fit: cover;
+  flex-shrink: 0; /* Impede que as imagens encolham */
+}
+
+.controls {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  transform: translateY(-50%);
+}
+
+.control {
+  background-color: rgba(244, 7, 216, 0.7);
+  border: none;
+  cursor: pointer;
+  padding: 10px;
+  font-size: 15px;
+  border-radius: 20%;
+  transition: background-color 0.3s;
+}
+
+.control:hover {
+  background-color: rgba(128, 0, 255, 0.57);
+}
+
+.img1 {
+  width: 320px !important;
+  height: 500px !important;
+}
+
+.img2 {
+  width: 322px !important;
+  height: 500px !important;
+}
+
+.img3 {
+  width: 320px !important;
+  height: 500px !important;
+}
+
+.img4 {
+  width: 322px !important;
+  height: 500px !important;
+}
+
+.img5 {
+  width: 320px !important;
+  height: 525px !important;
+}
+
+.img6 {
+  width: 320px !important;
+  height: 500px !important;
+}
+
+.img7 {
+  width: 320px !important;
+  height: 500px !important;
+}
