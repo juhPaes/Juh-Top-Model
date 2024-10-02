@@ -5,7 +5,10 @@
   box-sizing: border-box;
   font-family: "Poppins", sans-serif;
 }
-
+.logo{
+  background-color:rgba(192, 10, 199, 0.727);
+  border-radius:20px ;
+}
 body {
   margin: 0;
   padding: 0;
