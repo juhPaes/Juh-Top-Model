@@ -281,8 +281,8 @@ h3:hover {
   nav span {
     position: absolute;
     top: 0;
-    left: 0;
-    width: 348px !important;
+    left: 98px;
+    width: 85px !important;
     height: 100%;
     border-radius: 5px;
     transition: 0.5s;

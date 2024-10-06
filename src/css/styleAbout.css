@@ -57,8 +57,8 @@ nav a {
 nav span {
   position: absolute;
   top: 0;
-  left: 410px;
-  width: 75px;
+  left: 295px;
+  width: 60px;
   height: 100%;
   background: #d707ee85;
   border-radius: 5px;
@@ -122,34 +122,38 @@ button {
 
 /*Estilização container Box*/
 .container-box {
+  margin-top: -20px;
   display: flex;
   justify-content: center;
   justify-items: center;
   color: white;
 }
 
-.div-contato {
-  margin-top: -30px;
+.div-about {
+  margin-top: 30px;
   display: flex;
   justify-content: center;
   justify-items: center;
-  height: 400px;
-  width: 400px;
-  background-color: #c38ccf66;
-  margin-bottom: 140px;
-
+  height: 300px;
+  width: 380px;
+  background-color: #c38ccf2f;
+  margin-bottom: 250px;
+  font-family: cursive !important;
   background-repeat: no-repeat;
   background-size: cover;
 }
 i.fa-envelope {
   color: #c917a9;
-  font-size: 20px;
+  font-size: 10px;
 }
 
-.texto-contato {
+.texto-about {
+  text-align: justify;
   margin-top: 50px;
   justify-content: center;
   justify-items: center;
+  margin-inline-start: 15px;
+  margin-inline-end: 15px;
 }
 
 /*Estilização Container Redes Sociais*/
@@ -163,7 +167,7 @@ i.fa-envelope {
   background-color: #000000aa;
   padding: 10px;
   gap: 15px;
-  margin-bottom: 1px;
+  margin-bottom: 8px;
 }
 /*Estilização Container Rodapé*/
 .container-rodape {
@@ -219,8 +223,8 @@ i.fa-envelope {
   nav span {
     position: absolute;
     top: 0;
-    left: 255px;
-    width: 72px !important;
+    left: 185px;
+    width: 62px !important;
     height: 100%;
     border-radius: 5px;
     transition: 0.5s;
