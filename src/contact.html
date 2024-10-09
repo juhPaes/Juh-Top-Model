@@ -6,6 +6,7 @@
 
 
     <title>Juh Top Model</title>
+    <link rel="stylesheet" href="./css/styleFormulario.css">
     <link rel="icon" href="./img/borboleta.png" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"> 
     <link rel="stylesheet" href="./css/styleContact.css">
@@ -47,12 +48,32 @@
     <div class="conteudo-subtitulo">
         Modelo comercial.
     </div>
-
+    <div class="fale-comigo">
+        <h2>Fale comigo.</h2>
+    </div>
     <div class="container-box">
         <div class="div-contato">
             <div class="texto-contato">
+                <div class="container-formulario">
+
+                 
                     
-               <i class=" fas fa-envelope" > </i> &nbsp; contato@juhtopmodel.com.br<br><br>
+                    <form action="https://api.staticforms.xyz/submit" method="post">
+                        <label>Nome:</label>
+                        <input type="text" name="name" placeholder="Digite seu nome:" autocomplete="off" required>
+                    
+                        <label>Email:</label>
+                        <input type="email" name="email" placeholder="Digite seu e-mail:" autocomplete="off" />
+                    
+                        <label>Mensagem:</label>
+                        <textarea name="message" cols="30" rows="10" placeholder="Digite sua mensagem:"> </textarea>
+                        <button type="submit">Enviar</button>
+                        
+                        <input type="hidden" name="accessKey" value="2554ed49-d7a6-4848-8a08-ede6f186729d">
+                        <input type="hidden" name="redirectTo" value="http://127.0.0.1:5500/src/obrigado.html">
+                    </form>
+                </div>
+           
               
          
        

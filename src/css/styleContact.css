@@ -95,18 +95,20 @@ button {
 
 /*Estilização Titulo */
 .container-home {
-  margin-top: 50px;
+  margin-top: 30px;
   gap: 20px;
   display: flex;
   justify-content: center;
   justify-items: center;
   align-items: center;
+ 
 }
 /*Estilização Titulo */
 .container-home h1 {
   color: #ffffff;
   font-family: cursive;
   font-size: 40px;
+
 }
 
 /*Estilização SubTitulo */
@@ -115,41 +117,45 @@ button {
   justify-content: center;
   justify-items: center;
   margin-top: 0px;
-  margin-bottom: 50px;
+  margin-bottom: 10px;
   font-size: 15px;
   color: #bdb4b4;
 }
 
 /*Estilização container Box*/
 .container-box {
+  height: 500px;
   display: flex;
   justify-content: center;
   justify-items: center;
   color: white;
+ 
 }
 
-.div-contato {
-  margin-top: -30px;
-  display: flex;
-  justify-content: center;
-  justify-items: center;
-  height: 400px;
-  width: 400px;
-  background-color: #c38ccf66;
-  margin-bottom: 140px;
-
-  background-repeat: no-repeat;
-  background-size: cover;
-}
 i.fa-envelope {
   color: #c917a9;
   font-size: 20px;
 }
 
-.texto-contato {
-  margin-top: 50px;
+.fale-comigo{
+  background-color: rgba(26, 6, 29, 0.24);
+  display: flex;
   justify-content: center;
   justify-items: center;
+  height: 70px;
+  padding: 20px;
+  color: #ffffff;
+  margin-bottom: 20px;
+
+}
+.fale-comigo h2{
+  color: #ffffff;
+}
+.container-formulario{
+  display: flex;
+  justify-content: center;
+  justify-items: center;
+ 
 }
 
 /*Estilização Container Redes Sociais*/
