@@ -216,7 +216,7 @@ h3:hover {
   justify-items: center;
   padding-top: 4px;
   gap: 5px;
-  height: 510px;
+  height: 690px;
   background-color: #d6bdd9af;
 }
 
@@ -231,7 +231,7 @@ h3:hover {
   justify-items: center;
   padding-top: 4px;
   gap: 5px;
-  height: 510px;
+  height: 690px;
   background-color: #ffffff77;
 }
 
@@ -245,7 +245,7 @@ h3:hover {
   justify-content: center;
   justify-items: center;
   gap: 5px;
-  height: 550px;
+  height: 690px;
   background-color: #fd080877;
 }
 
@@ -254,14 +254,7 @@ h3:hover {
   text-align: center;
 }
 
-.container-colecao3 {
-  display: flex;
-  justify-content: center;
-  justify-items: center;
-  gap: 5px;
-  height: 550px;
-  background-color: #fd080877;
-}
+
 
 /*Responsive  */
 @media (max-width: 415px) {
@@ -380,7 +373,7 @@ h3:hover {
   /* Container Colecao2 editorial 2 GRID*/
 
   .container-colecao1 {
-    height: 540px !important;
+    height: 610px !important;
     width: 415px;
     display: flex !important;
     justify-content: center !important;
@@ -390,7 +383,8 @@ h3:hover {
   /* Container Colecao3 editorial 3 GRID*/
 
   .container-colecao2 {
-    height: 540px !important;
+   
+    height: 610px !important;
     width: 415px;
     display: flex !important;
     justify-content: center !important;
@@ -398,7 +392,7 @@ h3:hover {
   }
 
   .container-colecao3 {
-    height: 540px !important;
+    height: 610px !important;
     width: 415px;
     display: flex !important;
     justify-content: center !important;
@@ -414,45 +408,72 @@ h3:hover {
     overflow: hidden;
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-    margin-bottom: 20px; /* Espaçamento entre as seções */
+    margin-bottom: 0px; /* Espaçamento entre as seções */
   }
 
   .img1 {
+    margin-top: -15px;
     width: 285px !important;
     height: 520px !important;
   }
 
   .img2 {
+     margin-top: -15px;
     width: 286px !important;
     height: 520px !important;
   }
 
   .img3 {
+     margin-top: -15px;
     width: 286px !important;
     height: 520px !important;
   }
 
   .img4 {
+     margin-top: -15px;
     width: 284px !important;
     height: 520px !important;
   }
 
   .img5 {
+     margin-top: -15px;
     width: 285px !important;
     height: 520px !important;
   }
 
   .img6 {
+     margin-top: -15px;
     width: 287px !important;
     height: 520px !important;
   }
 
   .img7 {
+     margin-top: -18px;
     width: 285px !important;
     height: 520px !important;
   }
 
+   .img8 {
+     margin-top: -10px;
+    width: 285px !important;
+    height: 520px !important;
+  }
+
+
+  .container-carousel3 {
+    margin-left: 52px;
+    position: relative;
+    width: 71%;
+    max-width: 350px;
+    height: 520px;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    margin-bottom: 0px; /* Espaçamento entre as seções */
+  }
+
   .titulo-projects {
+
     display: flex;
     justify-content: center;
     justify-items: center;
